@@ -7,7 +7,7 @@
             <!--=============== FAVICON ===============-->
             <link rel="shortcut icon" href="/images/LogoMakr-7nlNgJ.png" type="image/x-icon">
 
-    <title>Wima millers</title>
+    <title>Wima Millers</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,7 +16,95 @@
 	<link href="css/prettyPhoto.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" />	
    
-   
+   <style>
+
+h3 {
+  text-align: center;
+  font-size: 1.65em;
+  margin: 50px 30%;
+  line-height: 1.2;
+}
+
+.pictures {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3%;
+}
+
+.pictures img {
+  object-fit: cover;
+  width: 100%;
+  height:auto;
+  height: 200px;
+  transition: transform 0.2s ease;
+}
+
+a {
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a:hover img {
+  transform: scale(1.1) rotate(8deg);
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 1;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  margin: 15px 0 30px 0;
+  line-height: 1.3;
+}
+
+
+/* EN NU HIERONDER ALLE RESPPONSIVE DINGEN */
+
+
+@media (max-width: 900px) {
+  .pictures {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .pictures {
+    grid-template-columns: 1fr 1fr;
+  }
+  h3 {
+    margin: 50px 10%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .pictures {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 300px) {
+  .pictures {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+   </style>
   </head>
   <body>
 	<header>		
@@ -62,7 +150,7 @@
                                 <div class="carousel-content">
                                     <h2 class="animation animated-item-1">Welcome to our <span>Company</span></h2>
                                     <p class="animation animated-item-2"><b>Sima Si Sima, Sima Ni Wima!!</b></p>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <a class="btn-slide animation animated-item-3" href="/about.html">Read More</a>
                                 </div>
                             </div>
 
@@ -121,13 +209,8 @@
 		<div class="container">
 			<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
 				<h2><b>About us</b></h2>
-				<img src="images/IMG-20230612-WA0003.jpg" class="img-responsive"/>
-				<p>
-					Our team of skilled and experienced professionals ensures that every step of the milling process meets the highest standards.
-					 From cleaning and grading the maize to milling and packaging the final products, we maintain strict quality control measures to guarantee consistent excellence. We prioritize food safety and adhere to all relevant industry regulations, providing our customers with peace of mind and confidence in our products.
-
-
-				</p>
+				<img src="images/package.jpeg" height="50%"  class="img-responsive"/>
+				
 			</div>
 			
 			<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
@@ -147,12 +230,27 @@
 					 We strive to understand and meet the unique needs of our customers, whether they are small businesses or large-scale enterprises. 
 					 We offer a wide range of maize products, including maize flour, maize grits, and maize meal, catering to various culinary preferences and applications.
 				</p>
+
+
+				<p>At Wima Millers,we are commitment to quality and customer satisfaction,
+					we are also dedicated to sustainability and environmental responsibility. 
+					We optimize our production processes to minimize waste and energy consumption, promoting eco-friendly practices throughout our operations.
+					 By working closely with local farmers and supporting sustainable agriculture, we contribute to the well-being of our community and the planet.
+
+			   </p>
+
+<p>
+					Our team of skilled and experienced professionals ensures that every step of the milling process meets the highest standards.
+					 From cleaning and grading the maize to milling and packaging the final products, we maintain strict quality control measures to guarantee consistent excellence. We prioritize food safety and adhere to all relevant industry regulations, providing our customers with peace of mind and confidence in our products.
+
+
+				</p>
 				<p>
 
 					At Wima Millers, we believe in building lasting relationships with our customers. 
 					Our knowledgeable and friendly team is always ready to assist you with any inquiries or requests.
 					 We value your feedback and continuously strive to improve our products and services to exceed your expectations.
-				
+				<br>
 				<br><b>
 					Thank you for choosing Wima Millers as your trusted maize milling partner. We look forward to serving you and providing you with the finest maize products for your culinary needs.
 				</b>
@@ -166,30 +264,62 @@
 			<div class="text-center">
 				<h2>Our Products</h2>
 			</div>
-			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<img src="images/IMG-20230612-WA0003.jpg" width='80%' class="img-responsive"/>
-				<h3>Maize Flour.</h3>
-				<p>Our maize flour is the cornerstone of our product lineup.
-					 Meticulously milled from the finest maize grains, our maize flour boasts exceptional quality and consistency. 
-					 We offer a range of maize flour options to cater to different culinary preferences and applications. 
-				</p>
-			</div>
 			
-			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-				<img src="images/img-20180314-wa00011433630798.jpg" class="img-responsive"/>
-				<h3>Maize Bran</h3>
-				<p>Maize bran, another valuable byproduct of maize milling, is a fiber-rich ingredient that offers numerous health benefits. Our maize bran is carefully processed to retain its natural nutritional properties and high fiber content. 
-					It serves as an excellent dietary addition for individuals seeking a high-fiber diet or for incorporation into animal feed formulations.
-				</p>
-			</div>
+
+
+			<div class="pictures">
+				<a href="">
+				  <figure>
+					<img src="/images/wima.jpeg" alt="">
+					<figcaption>
+					  <h4> Maize Flour</h4>
+					 
+					</figcaption>
+				  </figure>
+				</a>
+
+
+
+				<a href="#">
+					<figure>
+					  <img src="/images/dushi.jpeg" alt="">
+					  <figcaption>
+						<h4>Maize Flour</h4>
+					  
+					  </figcaption>
+					</figure>
+				  </a>	
+
+				<a href="">
+					<figure>
+					  <img src="/images/bida.jpeg" alt="">
+					  <figcaption>
+						<h4>Maize Flour</h4>
+						
+					  </figcaption>
+					</figure>
+				  </a>
+
+				<a href="">
+				  <figure>
+					<img src="/images/img-20180314-wa00011433630798.jpg" alt="">
+					<figcaption>
+					  <h4>Maize Germ</h4>
+					
+					</figcaption>
+				  </figure>
+				</a>
+				<a href="#">
+				  <figure>
+					<img src="/images/Maize-Germ.jpg" alt="">
+					<figcaption>
+					  <h4>Maize Bran</h4>
+					
+					</figcaption>
+				  </figure>
+				</a>
 			
-			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">				
-				<img src="images/Maize-Germ.jpg" class="img-responsive"/>
-				<h3>Maize Germ.</h3>
-				<p>Maize germ is a highly nutritious component extracted during the maize milling process. At Wima Millers, we take great care in preserving the inherent nutritional value of maize germ. Rich in healthy fats, vitamins, 
-					and minerals, our maize germ is a valuable ingredient for the food and feed industries. 
-				</p>
-			</div>
+				
 		</div>
 	</div>
 	
@@ -202,11 +332,11 @@
 
             <div class="partners">
                 <ul>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
                 </ul>
             </div>        
         </div><!--/.container-->
@@ -222,7 +352,7 @@
                         </div>
                         <div class="media-body">
                             <h2>Have any question ?</h2> 
-                            <b><p>You can contact us on 0787,,,,,</p></b>
+                            <b><p>You can contact us on 0787 631 382</p></b>
                         </div>
                     </div>
                 </div>
@@ -236,18 +366,18 @@
 				<div class="social-icon">
 					<div class="col-md-4">
 						<ul class="social-network">
-							<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100094081377337 " class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							
+							<li><a href=" https://www.instagram.com/wimafourmillinglimited/?utm_source=qr" class="gplus tool-ti" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/wima-flour-milling-limited-b9a944281/" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UC2mFAZc4DYp2-7rQK8fqFbQ" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
 						</ul>	
 					</div>
 				</div>
 				
 				<div class="col-md-4 col-md-offset-4">
 					<div class="copyright">
-						&copy; EngKelvinmugo. All Rights Reserved.
+						&copy; Wima Flour Milling . All Rights Reserved.
 					</div>
                     
 				</div>						

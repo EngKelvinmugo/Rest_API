@@ -141,7 +141,7 @@ a:hover {
 	-o-transition: all 0.3s ease-in-out;
 }
 .nav-tabs > li > a.active {
-	color: #1BBD36;
+	color: orangered;
 	border-radius:0;
 	transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -184,7 +184,7 @@ a:hover {
 }
 
 #main-slider .carousel h2 span {
-  color: #1BBD36;
+  color: orangered;
 }
 
 #main-slider .carousel h2 span spani {
@@ -284,7 +284,7 @@ a:hover {
 	margin-bottom:30px;
 	color:#fff;
 	padding:50px;
-	background:#1BBD36;
+	background: orangered;
 	border-radius:50%;
 }
 
@@ -641,7 +641,7 @@ ul.social-network li a {
 .media h4 {
 	font-size:20px;
 	font-weight:600;
-	color:#1BBD36;
+	color: orangered;
 }
 
 /* --- portfolio --- */
@@ -681,8 +681,8 @@ ul.social-network li a {
 .portfolio-filter > li a:hover,
 .portfolio-filter > li a.active{
   color:#fff;
-  background: #1BBD36;
-  border: 1px solid #1BBD36;
+  background: orangered;
+  border: 1px solid orangered;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
